@@ -8,3 +8,36 @@ wheels/
 
 # Virtual environments
 .venv
+
+# dbt artifacts (gerados em cada execução)
+target/
+dbt_packages/
+logs/
+.partial_parse.msgpack
+graph_summary.json
+graph.gpickle
+manifest.json
+run_results.json
+compiled/
+run/
+
+profiles.yml
+*.dbt
+
+.vscode/
+.idea/
+*.iml
+
+.DS_Store
+Thumbs.db
+
+*.tmp
+*.swp
+*.swo
+
+.env
+.env.*
+credenciais.json
+
+*.log
+
