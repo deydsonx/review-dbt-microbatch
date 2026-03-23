@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: bronze_review
+    catalog: ecommerce
+    schema: bronze
+    tables:
+      - name: reviews
+        description: Dados brutos de avaliações de pedidos (reviews).

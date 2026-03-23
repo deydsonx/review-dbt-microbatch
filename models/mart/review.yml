@@ -1,0 +1,25 @@
+﻿version: 2
+models:
+  - name: fact_review
+    description: >
+      Tabela final de análises (reviews), combinando dados de staging com
+      classificação de sentimento e categoria geradas em modelos intermediários.
+    columns:
+      - name: id_review
+        description: Identificador único da avaliação.
+      - name: id_order
+        description: Identificador do pedido associado à avaliação.
+      - name: nu_review_score
+        description: Nota da avaliação.
+      - name: ts_review_answer
+        description: Timestamp de quando a avaliação foi respondida.
+      - name: nm_review_title
+        description: Título do review.
+      - name: nm_review_message
+        description: Texto de mensagem do review.
+      - name: in_has_comment
+        description: Flag indicando se existe comentário adicional.
+      - name: sentiment_label
+        description: Rótulo de sentimento (positivo, negativo, neutro) obtido de int_review_sentiment.
+      - name: category_label
+        description: Rótulo de categoria (intenção/assunto do review) obtido de int_review_classify.
