@@ -1,6 +1,6 @@
 
     
-  create or replace table `ecommerce`.`dev_intermediate_test`.`int_review_classify`
+  create or replace table `ecommerce`.`intermediate`.`int_review_classify`
   
   (
     
@@ -20,7 +20,7 @@
   
   
   
-  CLUSTER BY (ts_review_answer)
+  
   
   
   

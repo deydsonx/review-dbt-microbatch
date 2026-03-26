@@ -1,7 +1,7 @@
 
   
   
-  create or replace view `ecommerce`.`dev_staging_test`.`stg_review`
+  create or replace view `ecommerce`.`intermediate_staging`.`stg_review`
   
   as (
     WITH source_review AS (

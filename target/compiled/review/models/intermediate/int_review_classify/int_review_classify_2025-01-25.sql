@@ -7,7 +7,7 @@ WITH base AS (
         ts_review_answer,
         nm_review_message
     FROM 
-        (select * from `ecommerce`.`dev_staging_test`.`stg_review` where ts_review_answer >= '2025-01-25 00:00:00+00:00' and ts_review_answer < '2025-01-26 00:00:00+00:00') _dbt_et_filter_subq_stg_review
+        (select * from `ecommerce`.`intermediate_staging`.`stg_review` where ts_review_answer >= '2025-01-25 00:00:00+00:00' and ts_review_answer < '2025-01-26 00:00:00+00:00') _dbt_et_filter_subq_stg_review
     WHERE 
         in_has_comment IS TRUE
 )
