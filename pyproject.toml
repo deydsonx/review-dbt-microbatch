@@ -1,7 +1,7 @@
 [project]
 name = "review-dbt-microbatch"
 version = "0.1.0"
-description = "Add your description here"
+description = "Example dbt project for processing review micro-batches"
 readme = "README.md"
 requires-python = ">=3.11,<3.12"
 dependencies = [
