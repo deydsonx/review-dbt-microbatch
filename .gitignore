@@ -5,11 +5,12 @@ build/
 dist/
 wheels/
 *.egg-info
-
+.python-version
 # Virtual environments
 .venv
 
 # dbt artifacts (gerados em cada execução)
+.user.yml
 target/
 dbt_packages/
 logs/
